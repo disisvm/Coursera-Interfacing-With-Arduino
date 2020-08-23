@@ -1,0 +1,10 @@
+Monitor Doors Remotely 
+
+In this project, I would like to develop an external system which remotely inform 
+us whether doors are shut or opened. The push button will be attached to the
+closing of door and system will recognize the door is shut until the push button is 
+pressed and sends alerts when not.
+
+The use of WiFi Sheild here is to remotely access the information. So, it has a very 
+important role to play.
+
