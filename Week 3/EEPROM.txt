@@ -1,16 +1,16 @@
-include <EEPROM.h> 
+include <EEPROM.h>
 
 void setup()
 {
 serial.begin (9600) ;
 }
 
-int address: 
+int address:
 int dataToWrite;
 
 void loop()
 {
-string buffer = ""; 
+string buffer = "";
 buffer = Serial.readstring ();
 
 if (buffer.startsWith("read"))
